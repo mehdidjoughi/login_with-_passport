@@ -1,0 +1,20 @@
+{
+  "name": "oauth-passport",
+  "version": "1.0.0",
+  "description": "loging app with express and passport with mongoDb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Mehdi Djo",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^2.0.0-beta.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.11",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
+  }
+}
